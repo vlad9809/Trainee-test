@@ -1,0 +1,121 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.container {
+    margin: auto;
+    padding-top: 24px;
+}
+.welcome_line {
+    display: flex;
+}
+.welcome {
+    display: center;
+}
+.our_stores {
+    display: flex-end;
+}
+
+.tophalf {
+    width: 100vw;
+    height: 115vh;
+    /* background-color: green; */
+    background: url(9193579.png) no-repeat center center/ cover;
+    color: white;
+    
+    
+
+
+}
+/* @media(max-width: 1440px) {
+    .tophalf {
+        text-align: center;
+        display: auto;
+    }
+} */
+.Aurora_table {
+    margin-left: 10px;
+}
+.pages {
+    color: black;
+    text-decoration: none;
+    display:flex;
+    
+    
+}
+.pagesa{
+    text-decoration: none;
+    color:white;
+}
+.pagesb{
+    text-decoration: none;
+    color:white;
+}
+.pagesc{
+    text-decoration: none;
+    color:white;
+}
+.pagesd{
+    text-decoration: none;
+    color:white;
+}
+.pagese{
+    text-decoration: none;
+    color:white;
+}
+.pagesf{
+    text-decoration: none;
+    color:white;
+}
+.pagesg{
+    text-decoration: none;
+    color:white;
+}
+/* .pages:hover {
+    text-decoration: underline;
+} */
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
+}
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn.hover {
+    opacity: 0.9;
+}
+
+.registering {
+    padding-top: 50px;
+    text-align: center;
+    margin: center;
+}
+
+.row {
+    display: flex;
+    margin: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.about{
+    background-color: whitesmoke;
+    padding-top: 15px;
+}
+.about_table {
+    width:70%;
+    text-align: center;
+}
