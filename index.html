@@ -16,6 +16,8 @@
             <div class="welcome">
               <p>We deliver worldwide</p>
             </div>
+
+            <div class="geoLogo"></div>
           
             <div class="ourStores">
               <p>Our stores</p>
@@ -32,28 +34,26 @@
           <div class="auroraLine">
 
             <div class="aurora">
-              <h2>Aurora</h2>
+              <h2 class="auroraText">Aurora</h2>
              </div>
 
              <div class="search">
             <input class="searchWindow" type="text" id="search" placeholder="What are you looking for?"/>
             <div class="item"></div>
-          </div>
-           <div class="btnThree">
+            </div>
+            <div class="btnThree">
             <div class="btnMenu">
               <div class="signIn">
-                <a class="signInText" href="#">Sign In |</a>
+                <a class="signInText" href="#">Sign in</a>
               </div>  
-              <div class="regist"> <a class="registText" href="#">Register</a>
-              </div>
-              
+               <p class="separator">|</p>
+               <div class="regist"> <a class="registText" href="#">Register</a>
+               </div>
+            </div>
+            <div class="basket"> <a class="basketText" href="#"></a></div>
+            <div class="indicator"></div>
           </div>
-          <div class="basket"> <a class="basketText" href="#">
-            
-          </a>
-          </div>
-
-           </div>
+           
           
 
           </div>
@@ -61,13 +61,13 @@
 
           <div class="pages">
             
-                <div class="WHAT'S NEW"> <a class="pagesa" href="_blank">WHAT'S NEW</a></div>
-                <div class="WOMEN"> <a class="pagesb" href="_blank">WOMEN</a></div>
-                <div class="ACCESSORIES"> <a class="pagesc" href="_blank">ACCESSORIES</a></div>
-                <div class="KIDS"> <a class="pagesd" href="_blank">KIDS</a></div>
-                <div class="BEUTY"> <a class="pagese" href="_blank">BEUTY</a></div>
-                <div class="OUTLETS"> <a class="pagesf" href="_blank">OUTLETS</a></div>
-                <div class="STORIES"> <a class="pagesg" href="_blank">STORIES</a></div>
+                <div class="WHAT'S NEW"> <a class="pagesa" href="#">WHAT'S NEW</a></div>
+                <div class="WOMEN"> <a class="pagesb" href="#">WOMEN</a></div>
+                <div class="ACCESSORIES"> <a class="pagesc" href="#">ACCESSORIES</a></div>
+                <div class="KIDS"> <a class="pagesd" href="#">KIDS</a></div>
+                <div class="BEUTY"> <a class="pagese" href="#">BEUTY</a></div>
+                <div class="OUTLETS"> <a class="pagesf" href="#">OUTLETS</a></div>
+                <div class="STORIES"> <a class="pagesg" href="#">STORIES</a></div>
              
            
           </div>
@@ -85,17 +85,18 @@
         <p>New arrivals.Exclusive previews.First access to sales. Sign up to stay in touch</p>
         
             <form action="/">
-              <table class="registerTable">
-                <td>
+              <div class="registerTable">
+                
                     <div class="formGroup">
                         <label for="email"></label>
                         <input type="text" id="email" placeholder="Your email address" />
                       </div>
-                </td>
-                <td>
-                    <input class="btn" type="submit" value="REGISTER" href="google.com" />
-                </td>
-                 </table>
+                
+                    <div class="button">
+                        <a class="btn"   href="#">REGISTER</a>
+                      </div>
+                    </div>
+                
                 </form>
   
         </div>
@@ -111,38 +112,67 @@
          
       </div>
 
-      <div class="about">
-          <table class="about_table">
-              <tr>
-                  <th>About us</th>
-                  <th>Categories</th>
-                  <th>Help</th>
-                  <th>Payments&Delivery</th>
-                  <th>Social</th>
-              </tr>
-              <tr>
-                  <td>Who we are</td>
-                  <td>Women fashion</td>
-                  <td>Customer service</td>
-                  <td></td>
-                  <td>icons</td>
-              </tr>
-              <tr>
-                  <td>Our strores</td>
-                  <td>Accessories</td>
-                  <td>Size guide</td>
-                  <td>Purchase terms</td>
-              </tr>
-              <tr>
-                  <td>Customer reviews</td>
-                  <td>Kids</td>
-                  <td>Contact us</td>
-                  <td>Guarantee</td>
-              </tr>
-              <tr></tr>
-          </table>
-      </div>
+      <footer class="about">
+          <div class="bottomTable">
+              
+                <div class="block">
+                  <ul>
+                  <li class="title"><a class="title"href="#">About Us</a></li>
+                  <li class="blockText" ><a href="#">Who we are</a> </li>
+                  <li class="blockText" ><a href="#">Our strores</a></li>
+                  <li class="blockText" ><a href="#">Customer reviews</a></li>
+                  </ul>
+                </div>   
+                <div class="block">
+                  <ul>
+                    <li class="title"> <a class="title" href="#">Categories</a> </li>
+                    <li class="blockText" ><a href="#">Women fashion</a></li>
+                    <li class="blockText" ><a href="#">Accessories</a></li>
+                    <li class="blockText" ><a href="#">Kids</a></li>
+                  </ul>
+
+                </div> 
+                <div class="block">
+                  <ul>
+                    <li class="title"><a class="title" href="#">Help</a></li>
+                    <li class="blockText" ><a href="#">Customer service</a></li>
+                      <li class="blockText" ><a href="#">Size guide</a></li>
+                      <li class="blockText" ><a href="#">Contact us</a></li>
+                      
+                  </ul>
+
+                </div>
+                <div class="block">
+                  <ul>
+                    <li class="title"><a class="title" href="#">Payments & Delivery</a></li>
+                    
+                    <li class="blockText" ><a href="#">Purchase terms</a></li>
+                    <li class="blockText" ><a href="#">Guarantee</a></li>
+                  </ul >
+
+                </div>
+                <div class="block">
+                  <ul>
+                    <li class="title"><a class="title" href="#">Social</a></li>
+                    <li><div class="social">
+                      <div class="instagram"><a href="#"></a></div>
+                      <div class="twitter"><a href="#"></a></div>
+                      <div class="snapchat"><a href="#"></a></div>
+                      <div class="facebook"><a href="#"></a></div>
+                      <div class="youtube"><a href="#"></a></div>
+                    </div></li>
+                  </ul>
+
+                </div>
+          </div>
+          <div class="copyRight">
+            <p>Copyright, Aurora 2020. All rights reserved.</p>
+          </div>
+      </footer>
+      
     </div>
+    
+      
   <script src="srcript.js"></script>
   </body>
 
