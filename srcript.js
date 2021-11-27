@@ -1,5 +1,5 @@
 
-let welcomeLine = document.querySelector(".welcomeLine")
+let welcomeLine = document.querySelector(".welcomeLine") //
 let headerState = document.querySelector(".headerState")
 let topHalf = document.querySelector(".topHalf")
 
@@ -21,7 +21,7 @@ let goods = 49
 
 indicator.classList.remove("logIn")
 
-function logIn() {
+function logIn() {   //register
     welcomeLine.classList.add("logIn")
     headerState.classList.add("logIn")
     topHalf.classList.add("logIn")
@@ -34,7 +34,6 @@ function logIn() {
     separator.classList.add("logIn")
     regist.classList.add("logIn")
     basket.classList.add("logIn")
-    
 }
 
 signInText.onclick = function() {
@@ -46,7 +45,7 @@ regist.onclick = function() {
     logIn()
 }
 
-function logOut() {
+function logOut() {  // hi,angela -> first page
     welcomeLine.classList.remove("logIn")
     headerState.classList.remove("logIn")
     topHalf.classList.remove("logIn")
@@ -68,10 +67,9 @@ function logOut() {
         logIn()
         letIn()
     }
-
 }
 
-function letIn() {
+function letIn() {  // press sign In
     indicator.classList.add("logIn")
     indicator.innerHTML = goods
 
