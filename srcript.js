@@ -1,28 +1,28 @@
 
-let welcomeLine = document.querySelector(".welcomeLine") //
-let headerState = document.querySelector(".headerState")
-let topHalf = document.querySelector(".topHalf")
+let welcomeLine = document.querySelector(".welcomeLine") // we deliver worldwide and our stores
+let headerState = document.querySelector(".headerState") // header (text from white to black)
+let topHalf = document.querySelector(".topHalf") // photo
 
-let aurora = document.querySelector(".aurora")
-let searchWindow = document.querySelector(".searchWindow")
-let item = document.querySelector(".item")
-let btnThree = document.querySelector(".btnThree")
-let pages = document.querySelector(".pages")
+let aurora = document.querySelector(".aurora") // title Aurora
+let searchWindow = document.querySelector(".searchWindow") //search window
+let item = document.querySelector(".item") // logo search (from white to black)
+let btnThree = document.querySelector(".btnThree") // buttons sign In | register and purchase
+let pages = document.querySelector(".pages") // lines What's new, women ...
 
-let signIn = document.querySelector(".signIn")
-let signInText = document.querySelector(".signInText")
-let separator = document.querySelector(".separator")
-let regist = document.querySelector(".registText")
+let signIn = document.querySelector(".signIn") // signIn div
+let signInText = document.querySelector(".signInText")// signIn text (button)
+let separator = document.querySelector(".separator") // |
+let regist = document.querySelector(".registText") //regist button
 
-let basket = document.querySelector(".basketText")
+let basket = document.querySelector(".basketText") // purchase
 
-let indicator = document.querySelector(".indicator")
-let goods = 49
+let indicator = document.querySelector(".indicator") // yellow circle
+let goods = 49 // number on yellow circle
 
 indicator.classList.remove("logIn")
 
-function logIn() {   //register
-    welcomeLine.classList.add("logIn")
+function logIn() {   //press register
+    welcomeLine.classList.add("logIn") // adding podclass logIn
     headerState.classList.add("logIn")
     topHalf.classList.add("logIn")
     aurora.classList.add("logIn")
@@ -36,16 +36,16 @@ function logIn() {   //register
     basket.classList.add("logIn")
 }
 
-signInText.onclick = function() {
+signInText.onclick = function() { // while pressing Sign In button we launch functions below
     logIn()
     letIn()
 }
 
-regist.onclick = function() {
+regist.onclick = function() { //while pressing regist button we launch function below
     logIn()
 }
 
-function logOut() {  // hi,angela -> first page
+function logOut() {  // press hi,angela -> first page
     welcomeLine.classList.remove("logIn")
     headerState.classList.remove("logIn")
     topHalf.classList.remove("logIn")
@@ -69,7 +69,7 @@ function logOut() {  // hi,angela -> first page
     }
 }
 
-function letIn() {  // press sign In
+function letIn() {  // press sign In -> hi,angels 49
     indicator.classList.add("logIn")
     indicator.innerHTML = goods
 
