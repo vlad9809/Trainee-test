@@ -1,5 +1,5 @@
 
-let welcomeLine = document.querySelector(".welcomeLine") // we deliver worldwide and our stores
+let welcomeLine = document.querySelector(".welcomeLine") // line: we deliver worldwide and our stores
 let headerState = document.querySelector(".headerState") // header (text from white to black)
 let topHalf = document.querySelector(".topHalf") // photo
 
