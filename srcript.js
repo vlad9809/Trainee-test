@@ -39,7 +39,7 @@ function logIn() {
 
 signInText.onclick = function() {
     logIn()
-    singIn()
+    letIn()
 }
 
 regist.onclick = function() {
@@ -66,12 +66,12 @@ function logOut() {
     signInText.innerHTML = "Sign in"
     signInText.onclick = function() {
         logIn()
-        singIn()
+        letIn()
     }
 
 }
 
-function singIn() {
+function letIn() {
     indicator.classList.add("logIn")
     indicator.innerHTML = goods
 
